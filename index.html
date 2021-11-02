@@ -61,6 +61,59 @@
           </article>
           <article class="box">
             <h2 class="title has-text-weight-bold">Filtros</h2>
+            <form>
+              <div class="field">
+                <label for="tipo" class="label">Tipo</label>
+                <div class="control">
+                  <div class="select is-fullwidth">
+                    <select name="" id="select-tipo">
+                      <option value="todos">Todos</option>
+                      <option value="ganancia">Ganancia</option>
+                      <option value="gasto">Gasto</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field"> 
+                <label for="categoria" class="label">Categoría</label>
+                <div class="control">
+                  <div class="select is-fullwidth">
+                    <select name="" id="select-categoria">
+                      <option value="todas">Todas</option>
+                      <option value="comida">Comida</option>
+                      <option value="servicios">Servicios</option>
+                      <option value="salidas">Salidas</option>
+                      <option value="educacion">Educación</option><option value="transporte">Transporte</option><option value="trabajo">Trabajo</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="desde" class="label">Desde</label>
+                <div class="control">
+                  <input type="date" class="input">
+                </div>
+              </div>
+
+              <div class="field"> 
+                <label for="ordenar-por" class="label">Ordenar por</label>
+                <div class="control">
+                  <div class="select is-fullwidth">
+                    <select name="" id="select-ordenar-por">
+                      <option value="mas-reciente">Más reciente</option>
+                      <option value="menos-reciente">Menos reciente</option>
+                      <option value="mayor-monto">Mayor monto</option>
+                      <option value="menor-monto">Menor monto</option>
+                      <option value="a-z">A / Z</option>
+                      <option value="z-a">Z / A</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              
+            </form>
           </article>
         </div>
         <div class="column is-7">
@@ -122,9 +175,6 @@
       </div>
     </section>
 
-
-
-    
     <script src="./index.js"></script>
   </body>
 </html>

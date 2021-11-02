@@ -58,7 +58,7 @@ const estructuraHTML = (operaciones) => {
           </div>
           
           <div class="column is-3 ">   
-            <p>${operacion.categoria}</h5>
+            <p class="tag">${operacion.categoria}<p>
           </div>
 
           <div class="column is-2 has-text-right">
